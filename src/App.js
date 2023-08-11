@@ -3,10 +3,13 @@ import './App.css';
 
 function App() {
   return (
+  <div>
+      <div><header className='head'>      
+      <img src={logo} className="App-logo" alt="logo" />
+  </header>
+  </div>
     <div className="App">
-      <header>      
-          <img src={logo} className="App-logo" alt="logo" />
-      </header>
+      
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first releasead in 2013</li>
@@ -16,6 +19,7 @@ function App() {
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
 
+    </div>
     </div>
   );
 }
