@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+ 
 }
 
 .App-logo {
-  height: 200px;
+  height: 100px;
   pointer-events: none;
 }
 
@@ -11,6 +12,23 @@
   height: 20vh;
   background-color: #282c34;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  color: white;
+  padding: 0 3em;
+  gap: 4em;
+  font-size: 25px;
+  font-weight: 500;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -25,11 +43,10 @@
   flex-direction: column;
   align-items: center;
   gap: 15px;
-  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
-li {
+.App > ul > li {
 margin: 35px 0px;
 }
 
